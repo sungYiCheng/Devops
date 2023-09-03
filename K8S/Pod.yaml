@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: webserver
+spec:
+  containers:
+  - name: pod-demo
+    image: "gcr.io/wt-gd-pdd2/nginx_test@sha256:9f73124c8bed8af82ae4de85b780954c9bba511fcc517602c73e50aa778665ef"
+    ports:
+    - containerPort: 3000

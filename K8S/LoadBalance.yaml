@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: laodbalance-service
+  namespace: default
+  labels:
+    app: "nginx-1"
+spec:
+  ports:
+  - protocol: "TCP"
+    port: 8080
+    targetPort: 80
+  selector:
+    app: "nginx-1"
+  type: "LoadBalancer"
+  loadBalancerIP: ""

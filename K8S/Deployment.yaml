@@ -1,0 +1,23 @@
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata:
+  name: "nginx-1"
+  namespace: "default"
+  labels:
+    app: "nginx-1"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: "nginx-1"
+  template:
+    metadata:
+      labels:
+        app: "nginx-1"
+    spec:
+      containers:
+      - name: "nginx-test-sha256-1"
+        image: "gcr.io/wt-gd-pdd2/nginx_test@sha256:9f73124c8bed8af82ae4de85b780954c9bba511fcc517602c73e50aa778665ef"
+        ports:
+        - protocol: TCP 
+          containerPort: 80  
