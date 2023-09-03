@@ -1,0 +1,44 @@
+pipeline {
+  agent any
+
+ //  tools {
+ //     Ansible "ansible" 
+ // }
+
+
+  stages {
+    stage('test echo start') {
+      steps {
+        echo "PipeLine start"
+      }
+    }
+
+
+    stage('git clone') {
+        steps {
+            git branch: 'master',
+            url: 'http://35.229.159.146:8087/BBking/devopstest.git'
+        }
+    }
+
+    stage ('ansible Run') {
+        steps {
+           dir('ansible')
+           {
+               //ansiblePlaybook( 
+               //playbook: 'playbook.yml',
+               //inventory: 'hosts', 
+               //credentialsId: 'bbtest01')
+
+             sh 'ansible-playbook -i hosts  --private-key ~/.ssh/id_rsa playbook.yml'           }
+        }
+    }
+
+     stage('test echo test end') {
+         steps 
+        {
+           echo "PipeLine Finish"
+        }
+     }
+  }
+}
