@@ -9,7 +9,7 @@ namespace Algorithm
         static void Main(string[] args)
         {
             List<int> list = new List<int> { 2, 3, 1, 6, 2, 9, 4, 1, 7 };
-            Dictionary<int, List<int>> Tree = new Dictionary<int, List<int>>()
+            Dictionary<int, List<int>> graphSearch = new Dictionary<int, List<int>>()
             {
                 {1,  new List<int> { 2, 3, 4 } },
                 {2,  new List<int> { 5 } },
@@ -18,15 +18,30 @@ namespace Algorithm
                 {5,  new List<int> { 9 } },
                 {6,  new List<int> { 10 }}
             };
-            int searchTarget;
+            int searchTarget = 0;
+
+            List<int[]> graphPath = new List<int[]>();
+            graphPath.Add(new int[] {0, 1, 12, 0, 0 , 0});
+            graphPath.Add(new int[] {0, 0, 9, 3, 0, 0 });
+            graphPath.Add(new int[] {0, 0, 0, 0, 5, 0});
+            graphPath.Add(new int[] {0, 0, 4, 0, 13, 15});
+            graphPath.Add(new int[] {0, 0, 0, 0, 0, 4});
+            graphPath.Add(new int[] {0, 0, 0, 0, 0, 0 });
+
+            //graphPath.Add(new int[] { 0, 0, 0, 14, 0, 2, 0, 1, 6 });
+            //graphPath.Add(new int[] { 8, 11, 0, 0, 0, 0, 1, 0, 7 });
+            //graphPath.Add(new int[] { 0, 0, 2, 0, 0, 0, 6, 7, 0 });
 
             // Check Sort
             // searchTarget = 11;
             // SortAction(list);
 
             // Check Sort
-            searchTarget = 7;
-            SearchAction(Tree, searchTarget);
+            //searchTarget = 7;
+            //SearchAction(graphSearch, searchTarget);
+
+            // Check ShortPath
+            ShortPathAction(graphPath);
 
             Console.ReadLine();
         }
@@ -77,19 +92,27 @@ namespace Algorithm
             Search.Show(target, index);
         }
 
-        private static void SearchAction(Dictionary<int, List<int>> tree, int target)
+        private static void SearchAction(Dictionary<int, List<int>> graph, int target)
         {
-            Console.WriteLine("搜尋數列");
-            Search.Show(tree);
+            Console.WriteLine("搜尋圖示");
+            Search.Show(graph);
             Console.WriteLine($"目標: {target} \n");
 
             // 廣度搜尋 (用Queue實作，先找鄰近的節點)
             // bool find = Search.BFSSearch(tree, target);
 
-            // 深度搜尋 (用Stack實作，先找鄰近的節點)
-            bool find = Search.DFSSearch(tree, target);
+            // 深度搜尋 (用Stack實作，先找分支延續的節點)
+            bool find = Search.DFSSearch(graph, target);
 
             Search.Show(target, find);
+        }
+
+        private static void ShortPathAction(List<int[]> graph)
+        {
+            Console.WriteLine("搜尋圖示");
+            ShortPath.Show(graph);
+
+            ShortPath.Dijkstra(graph, 0, graph.Count);
         }
     }
 }

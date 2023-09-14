@@ -6,7 +6,7 @@ namespace Algorithm
 {
     public static partial class Search
 	{
-        public static bool DFSSearch(Dictionary<int, List<int>> tree, int target)
+        public static bool DFSSearch(Dictionary<int, List<int>> graph, int target)
         {
             HashSet<int> visited  = new HashSet<int>();
             Stack<int> stack = new Stack<int>();
@@ -40,7 +40,7 @@ namespace Algorithm
                     visited.Add(node);
                 }
 
-                tree.TryGetValue(node, out List<int> neighbours);
+                graph.TryGetValue(node, out List<int> neighbours);
 
                 if (neighbours == null)
 				{

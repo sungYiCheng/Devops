@@ -24,9 +24,9 @@ namespace Algorithm
 
     public static partial class Search
 	{
-        public static void Show(Dictionary<int, List<int>> tree)
+        public static void Show(Dictionary<int, List<int>> graph)
         {
-            foreach (KeyValuePair<int, List<int>> pair in tree)
+            foreach (KeyValuePair<int, List<int>> pair in graph)
 			{
                 Console.Write($"Tree node:{pair.Key}, neighbours: {String.Join(", ", pair.Value)}");
                 Console.Write("\n");
@@ -45,6 +45,19 @@ namespace Algorithm
         {
             Console.Write("\n");
             Console.Write($"Search Targe:{target}, find: {find}");
+        }
+    }
+
+    public static partial class ShortPath
+	{
+        public static void Show(List<int[]> graph)
+        {
+            foreach (int[] value in graph)
+            {
+                Console.WriteLine($"[{String.Join(", ", value)}]");
+            }
+
+            Console.Write("\n");
         }
     }
 }
