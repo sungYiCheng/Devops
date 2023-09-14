@@ -83,8 +83,11 @@ namespace Algorithm
             Search.Show(tree);
             Console.WriteLine($"目標: {target} \n");
 
-            // 內插搜尋 (用內插法找出每一次的檢查值, 比目標小，就把上界改成檢查值的資訊，再重複操作直到找到為止)
-            bool find = Search.BFSSearch(tree, target);
+            // 廣度搜尋 (用Queue實作，先找鄰近的節點)
+            // bool find = Search.BFSSearch(tree, target);
+
+            // 深度搜尋 (用Stack實作，先找鄰近的節點)
+            bool find = Search.DFSSearch(tree, target);
 
             Search.Show(target, find);
         }
