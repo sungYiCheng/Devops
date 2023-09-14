@@ -6,40 +6,62 @@ namespace Algorithm
 {
     public static partial class Search
 	{
-        public static int BFSSearch(List<int> list, int target)
+        public static bool BFSSearch(Dictionary<int, List<int>> tree, int target)
         {
-            Dictionary<int, List<int>> tree = new Dictionary<int, List<int>>();
-            tree.Add(1, new List<int> { 2, 3, 4 });
-            tree.Add(2, new List<int> { 5 });
-            tree.Add(3, new List<int> { 6, 7 });
-            tree.Add(4, new List<int> { 8});
-            tree.Add(5, new List<int> { 9 });
-            tree.Add(6, new List<int> { 10 });
-
-
-            HashSet<int> itemCovered = new HashSet<int>();
+            HashSet<int> visited  = new HashSet<int>();
             Queue<int> queue = new Queue<int>();
-            queue.Enqueue(tree.ElementAt(0).Key);
+
+            // 假設從 node 1 開始搜尋
+            queue.Enqueue(1);
+
+            if (target == 1)
+			{
+                return true;
+			}
 
             while (queue.Count > 0)
             {
-                var element = queue.Dequeue();
-                if (itemCovered.Contains(Convert.ToInt32(element)))
-                    continue;
-                else
-                    itemCovered.Add(Convert.ToInt32(element));
-                Console.WriteLine(element);
-                List neighbours;
-                tree.TryGetValue(Convert.ToInt32(element), out neighbours);
-                if (neighbours == null)
-                    continue;
-                foreach (var item1 in neighbours)
+                var node = queue.Dequeue();
+
+                Console.WriteLine($"Visit Node: {node}");
+
+                if (target == node)
                 {
-                    queue.Enqueue(item1);
+                    Console.WriteLine($"Find it!");
+                    return true;
                 }
+
+                if (visited .Contains(node))
+				{
+                    continue;
+                }
+                else
+				{
+                    visited.Add(node);
+                }
+
+                tree.TryGetValue(node, out List<int> neighbours);
+
+                if (neighbours == null)
+				{
+                    Console.WriteLine($"No Neighbours");
+                    Console.WriteLine($"now queue: {string.Join(", ", queue.ToArray())}");
+                    Console.WriteLine("\n");
+                    continue;
+                }
+
+                Console.WriteLine($"Neighbours: {string.Join(",", neighbours)}");
+
+                foreach (var item in neighbours)
+                {
+                    queue.Enqueue(item);
+                    Console.WriteLine($"put: {item} in queue, now queue: {string.Join(", ", queue.ToArray())}");
+                }
+
+                Console.WriteLine("\n");
             }
 
-            return -1;
+            return false;
         }
     }
 }

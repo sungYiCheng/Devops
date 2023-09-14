@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\Algorithm\\Algorithm\\Algorithm.csproj",
+      "projectUniqueName": "D:\\Practice\\SideProject\\Algorithm\\Algorithm\\Algorithm.csproj",
       "projectName": "Algorithm",
-      "projectPath": "D:\\Practice\\Algorithm\\Algorithm\\Algorithm.csproj",
+      "projectPath": "D:\\Practice\\SideProject\\Algorithm\\Algorithm\\Algorithm.csproj",
       "packagesPath": "C:\\Users\\squall.sung\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\Algorithm\\Algorithm\\obj\\",
+      "outputPath": "D:\\Practice\\SideProject\\Algorithm\\Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

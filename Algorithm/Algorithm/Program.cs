@@ -9,13 +9,24 @@ namespace Algorithm
         static void Main(string[] args)
         {
             List<int> list = new List<int> { 2, 3, 1, 6, 2, 9, 4, 1, 7 };
-            int searchTarget = 7;
+            Dictionary<int, List<int>> Tree = new Dictionary<int, List<int>>()
+            {
+                {1,  new List<int> { 2, 3, 4 } },
+                {2,  new List<int> { 5 } },
+                {3,  new List<int> { 6, 7 } },
+                {4,  new List<int> { 8 }},
+                {5,  new List<int> { 9 } },
+                {6,  new List<int> { 10 }}
+            };
+            int searchTarget;
 
             // Check Sort
+            // searchTarget = 11;
             // SortAction(list);
 
             // Check Sort
-            SearchAction(list, searchTarget);
+            searchTarget = 7;
+            SearchAction(Tree, searchTarget);
 
             Console.ReadLine();
         }
@@ -63,7 +74,19 @@ namespace Algorithm
             // 內插搜尋 (用內插法找出每一次的檢查值, 比目標小，就把上界改成檢查值的資訊，再重複操作直到找到為止)
             int index = Search.InterpolationSearch(list, target);
 
-            Sort.Show(target, index);
+            Search.Show(target, index);
+        }
+
+        private static void SearchAction(Dictionary<int, List<int>> tree, int target)
+        {
+            Console.WriteLine("搜尋數列");
+            Search.Show(tree);
+            Console.WriteLine($"目標: {target} \n");
+
+            // 內插搜尋 (用內插法找出每一次的檢查值, 比目標小，就把上界改成檢查值的資訊，再重複操作直到找到為止)
+            bool find = Search.BFSSearch(tree, target);
+
+            Search.Show(target, find);
         }
     }
 }
