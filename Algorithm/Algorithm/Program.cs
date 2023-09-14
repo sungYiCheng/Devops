@@ -18,7 +18,6 @@ namespace Algorithm
                 {5,  new List<int> { 9 } },
                 {6,  new List<int> { 10 }}
             };
-            int searchTarget = 0;
 
             List<int[]> graphPath = new List<int[]>();
             graphPath.Add(new int[] {0, 1, 12, 0, 0 , 0});
@@ -28,16 +27,12 @@ namespace Algorithm
             graphPath.Add(new int[] {0, 0, 0, 0, 0, 4});
             graphPath.Add(new int[] {0, 0, 0, 0, 0, 0 });
 
-            //graphPath.Add(new int[] { 0, 0, 0, 14, 0, 2, 0, 1, 6 });
-            //graphPath.Add(new int[] { 8, 11, 0, 0, 0, 0, 1, 0, 7 });
-            //graphPath.Add(new int[] { 0, 0, 2, 0, 0, 0, 6, 7, 0 });
-
             // Check Sort
-            // searchTarget = 11;
+            // int searchTarget = 11;
             // SortAction(list);
 
             // Check Sort
-            //searchTarget = 7;
+            // int searchTarget = 7;
             //SearchAction(graphSearch, searchTarget);
 
             // Check ShortPath

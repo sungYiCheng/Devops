@@ -38,4 +38,3 @@ D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.cs
 D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dll
 D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
 D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache
-D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
