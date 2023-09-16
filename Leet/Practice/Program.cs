@@ -8,10 +8,7 @@ namespace Practice
 		{
 			Solution solution = new Solution();
 
-			string path = "/home/";
-			path = "/../";
-			path = "/a/./b/../../c/";
-			string ans = solution.SimplifyPath(path);
+			bool ans = solution.CanConstruct("a", "b");
 		}
 	}
 }
