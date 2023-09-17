@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using practice.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -7,27 +8,33 @@ namespace practice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PracticeController : ControllerBase
+    public class LINQController : ControllerBase
     {
-        private readonly BbtestContext _ontext;
+        private readonly BbtestContext _db;
 
-        public PracticeController(BbtestContext bbtestContext)
+        public LINQController(BbtestContext bbtestContext)
         {
-            _ontext = bbtestContext;
+            _db = bbtestContext;
         }
 
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<Bbtable> Get()
         {
-            return _ontext.Bbtables.ToList();
+            return _db.Bbtables.ToList();
         }
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IEnumerable<Bbtable> Get(int id)
         {
-            return $"value: {id}";
+            var result = from table in _db.Bbtables
+                         where table.Aa == id
+                         select table;
+
+            result = _db.Bbtables.Where(x => x.Aa == id);
+
+            return result;
         }
 
         // POST api/<ValuesController>

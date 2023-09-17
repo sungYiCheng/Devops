@@ -24,9 +24,9 @@ public partial class BbtestContext : DbContext
     {
         modelBuilder.Entity<Bbtable>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("BBTable");
+            entity.HasKey(e => e.Aa).HasName("PRIMARY");
+
+            entity.ToTable("BBTable");
 
             entity.Property(e => e.Aa)
                 .HasColumnType("int(11)")
