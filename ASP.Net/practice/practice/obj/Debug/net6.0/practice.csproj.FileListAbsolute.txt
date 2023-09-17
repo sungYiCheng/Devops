@@ -71,3 +71,7 @@ E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\runtimes\unix\lib\netc
 E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\SideProject\ASP.Net\practice\practice\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

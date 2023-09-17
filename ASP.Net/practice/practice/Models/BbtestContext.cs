@@ -31,9 +31,11 @@ public partial class BbtestContext : DbContext
             entity.Property(e => e.Aa)
                 .HasColumnType("int(11)")
                 .HasColumnName("AA");
+            entity.Property(e => e.Aname).HasMaxLength(30);
             entity.Property(e => e.Bb)
                 .HasColumnType("int(11)")
                 .HasColumnName("BB");
+            entity.Property(e => e.Bname).HasMaxLength(30);
             entity.Property(e => e.Cc)
                 .HasColumnType("int(11)")
                 .HasColumnName("CC");

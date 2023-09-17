@@ -12,4 +12,8 @@ public partial class Bbtable
     public int Cc { get; set; }
 
     public int Dd { get; set; }
+
+    public string Aname { get; set; } = null!;
+
+    public string Bname { get; set; } = null!;
 }

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using practice.Models;
 using System.Configuration;
 
@@ -11,7 +12,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<BbtestContext>(options =>
 options.UseMySQL(builder.Configuration.GetConnectionString("BbtestDatabase")));
-
+//.AddNewtonsoftJson();
 
 var app = builder.Build();
 
