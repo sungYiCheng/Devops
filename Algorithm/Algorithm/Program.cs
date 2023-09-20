@@ -36,7 +36,12 @@ namespace Algorithm
             //SearchAction(graphSearch, searchTarget);
 
             // Check ShortPath
-            ShortPathAction(graphPath);
+            //ShortPathAction(graphPath);
+
+            TreeNode node = BinarySearchTree.CreateTree();
+
+            bool isBTS = BinarySearchTree.IsBTS(node);
+            Console.WriteLine($"isBTS? : {isBTS}");
 
             Console.ReadLine();
         }

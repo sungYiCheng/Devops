@@ -6,6 +6,13 @@ namespace Algorithm
 {
     public static partial class Search
 	{
+        /*
+         * 必須是先排序好
+         * 
+         * 
+         * O(log n) 
+         */
+
         public static int BinarySearch(List<int> list, int target)
         {
             int low = 0;

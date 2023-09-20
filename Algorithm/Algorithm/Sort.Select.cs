@@ -4,6 +4,8 @@ using System.Text;
 
 namespace Algorithm
 {
+   
+
     public static partial class Sort
 	{
         /*
@@ -19,7 +21,6 @@ namespace Algorithm
         * 
         * 
         */
-
 
         public static void SelectSort(List<int> list)
         {

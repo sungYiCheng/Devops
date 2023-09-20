@@ -6,6 +6,10 @@ namespace Algorithm
 {
     public static partial class Search
 	{
+        /*
+         * 廣度搜尋 用Queue
+         */
+
         public static bool BFSSearch(Dictionary<int, List<int>> graph, int target)
         {
             HashSet<int> visited  = new HashSet<int>();

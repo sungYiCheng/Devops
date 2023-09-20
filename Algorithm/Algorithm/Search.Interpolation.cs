@@ -6,6 +6,12 @@ namespace Algorithm
 {
     public static partial class Search
 	{
+        /*
+         * 
+         * O(n)
+         * 
+         */
+
         public static int InterpolationSearch(List<int> list, int target)
         {
             int low = 0;

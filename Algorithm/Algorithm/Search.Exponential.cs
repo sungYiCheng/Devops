@@ -6,6 +6,17 @@ namespace Algorithm
 {
     public static partial class Search
 	{
+        /*
+         * 先用 2^n 慢慢找到 範圍 (假設找到  落在 index為 2^3~ 2^4 內)
+         * 
+         * 再用 二元搜尋
+         * 
+         * 
+         * O(log n) 
+         * 
+         */
+
+
         public static int ExponentialSearch(List<int> list, int target)
         {
             int low = 0;
