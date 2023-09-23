@@ -86,3 +86,4 @@ All the words in s are separated by a single space.
             return check;
         }
     }
+}

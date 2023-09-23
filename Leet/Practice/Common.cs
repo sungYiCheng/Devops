@@ -8,6 +8,11 @@ namespace Practice
 {
 	public class ListNode
 	{
+		public List<int> Important = new List<int>()
+		{
+			134, 
+		};
+
 		public int val;
 		public ListNode next;
 		public ListNode(int x)

@@ -8,7 +8,9 @@ namespace Practice
 		{
 			Solution solution = new Solution();
 
-			bool ans = solution.CanConstruct("a", "b");
+			var ans = solution.LongestCommonPrefix(new string[] {"flow", "flower", "flight"  });
+
+			Console.WriteLine($"ans:{ans}");
 		}
 	}
 }
