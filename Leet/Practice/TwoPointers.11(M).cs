@@ -45,7 +45,7 @@ n == height.length
      */
     public partial class Solution
     {
-        public int MaxArea(int[] height)
+        public int MaxArea11(int[] height)
         {
             int rIndex = 0;
             int lIndex = 0;

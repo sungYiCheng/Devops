@@ -16,7 +16,7 @@ namespace Practice
 			list.Add(new List<int> { 0, 9, 7, -1 });
 			list.Add(new List<int> { 4, 4, -2, 1 });
 
-			var ans = solution.MinSubArrayLen(7, new int[] { 2, 3, 1, 2, 4, 3 });
+			var ans = solution.Compress(new char[] { 'a', 'a', 'b', 'b', 'c', 'c' });
 
 			Console.WriteLine($"ans:{ans}");
 		}

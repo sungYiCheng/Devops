@@ -14,6 +14,8 @@ namespace Practice
 		{
 			Qu.Add("11. Container With Most Water");
 			Qu.Add("134. zzzz");
+            Qu.Add("443. String Compression");
+			Qu.Add("334. Increasing Triplet Subsequence");
         }
 
 	}
