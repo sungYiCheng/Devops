@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\squall.sung\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\BB\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\SideProject\\Algorithm\\Algorithm\\Algorithm.csproj",
+      "projectUniqueName": "E:\\SideProject\\Algorithm\\Algorithm\\Algorithm.csproj",
       "projectName": "Algorithm",
-      "projectPath": "D:\\Practice\\SideProject\\Algorithm\\Algorithm\\Algorithm.csproj",
-      "packagesPath": "C:\\Users\\squall.sung\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\SideProject\\Algorithm\\Algorithm\\obj\\",
+      "projectPath": "E:\\SideProject\\Algorithm\\Algorithm\\Algorithm.csproj",
+      "packagesPath": "C:\\Users\\BB\\.nuget\\packages\\",
+      "outputPath": "E:\\SideProject\\Algorithm\\Algorithm\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\squall.sung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BB\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -64,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

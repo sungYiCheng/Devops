@@ -49,7 +49,7 @@ namespace Algorithm
         }
 
         // 前序走訪：root -> 左 -> 右
-        public static void ForwardTraverse(TreeNode node)
+        public static void Preorder(TreeNode node)
         {
             if (node == null)
             {
@@ -57,33 +57,33 @@ namespace Algorithm
             }
 
             Console.WriteLine(node.Data);
-            ForwardTraverse(node.Left);
-            ForwardTraverse(node.Right);
+            Preorder(node.Left);
+            Preorder(node.Right);
         }
 
         // 中序走訪： 左 -> root -> 右
-        public static void MiddleTraverse(TreeNode node)
+        public static void Inorder(TreeNode node)
         {
             if (node == null)
             {
                 return;
             }
 
-            MiddleTraverse(node.Left);
+            Inorder(node.Left);
             Console.WriteLine(node.Data);
-            MiddleTraverse(node.Right);
+            Inorder(node.Right);
         }
 
         // 後序走訪： 左 -> 右 -> root
-        public static void BackwardTraverse(TreeNode node)
+        public static void Postorder(TreeNode node)
         {
             if (node == null)
             {
                 return;
             }
 
-            BackwardTraverse(node.Left);
-            BackwardTraverse(node.Right);
+            Postorder(node.Left);
+            Postorder(node.Right);
             Console.WriteLine(node.Data);
         }
 

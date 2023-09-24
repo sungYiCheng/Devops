@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
+	public class Important
+	{
+		List<string> Qu = new List<string>();
+
+		public Important()
+		{
+			Qu.Add("11. Container With Most Water");
+        }
+
+	}
+
+
 	public class ListNode
 	{
 		public int val;

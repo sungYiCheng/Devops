@@ -9,11 +9,11 @@ namespace practice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CRUDController : ControllerBase
+    public class RESTfulCRUDController : ControllerBase
     {
         private readonly BbtestContext _db;
 
-        public CRUDController(BbtestContext bbtestContext)
+        public RESTfulCRUDController(BbtestContext bbtestContext)
         {
             _db = bbtestContext;
         }

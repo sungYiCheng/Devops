@@ -39,3 +39,17 @@ D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dl
 D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
 D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache
 D:\Practice\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
+E:\SideProject\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.exe
+E:\SideProject\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.deps.json
+E:\SideProject\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.json
+E:\SideProject\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.dev.json
+E:\SideProject\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.dll
+E:\SideProject\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.pdb
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfoInputs.cache
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfo.cs
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.CoreCompileInputs.cache
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dll
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
+E:\SideProject\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache
