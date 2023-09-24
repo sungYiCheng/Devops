@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    /*
-     * 
-     * 392. Is Subsequence
+	/*
+	 * 
+	 * 392. Is Subsequence
 Solved
 Easy
 Topics
@@ -34,33 +34,33 @@ Constraints:
 0 <= s.length <= 100
 0 <= t.length <= 104
 s and t consist only of lowercase English letters.
-     * 
-     */
+	 * 
+	 * 
+	 * 
+	 */
 
+	public partial class Solution
+	{
+		public bool IsSubsequence(string s, string t)
+		{
+			char[] sArray = s.ToCharArray();
+			List<char> tArray = t.ToCharArray().ToList();
 
-    public partial class Solution
-    {
-        public bool IsSubsequence(string s, string t)
-        {
-            char[] sArray = s.ToCharArray();
-            List<char> tArray = t.ToCharArray().ToList();
+			for (int i = 0; i < sArray.Length; i++)
+			{
+				if (tArray.Contains(sArray[i]))
+				{
+					int index = tArray.FindIndex(x => x == sArray[i]);
 
-            for (int i = 0; i < sArray.Length; i++)
-            {
-                if (tArray.Contains(sArray[i]))
-                {
-                    int index = tArray.FindIndex(x => x == sArray[i]);  // 這效能比較好
-                    //int index = tArray.IndexOf(sArray[i]);
+					tArray.RemoveRange(0, index + 1);
+				}
+				else
+				{
+					return false;
+				}
+			}
 
-                    tArray.RemoveRange(0, index + 1);
-                }
-                else
-                {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-    }
+			return true;
+		}
+	}
 }

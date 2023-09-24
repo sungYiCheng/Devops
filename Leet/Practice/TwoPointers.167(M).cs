@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    /*
-     * 167. Two Sum II - Input Array Is Sorted
+	/*
+	 * 167. Two Sum II - Input Array Is Sorted
 Solved
 Medium
 Topics
@@ -46,33 +46,33 @@ Constraints:
 numbers is sorted in non-decreasing order.
 -1000 <= target <= 1000
 The tests are generated such that there is exactly one solution.
-     * 
-     */
+	 * 
+	 * 
+	 */
 
+	public partial class Solution
+	{
+		public int[] TwoSumII(int[] numbers, int target)
+		{
+			List<int> numbersList = numbers.ToList();
 
-    public partial class Solution
-    {
-        public int[] TwoSumII(int[] numbers, int target)
-        {
-            List<int> numbersList = numbers.ToList();
+			int[] ans = new int[2] { 0, 0 };
+			for (int i = 0; i < numbersList.Count; i++)
+			{
+				int left = target - numbersList[i];
 
-            int[] ans = new int[2] { 0, 0 };
-            for (int i = 0; i < numbersList.Count; i++)
-            {
-                int left = target - numbersList[i];
+				if (numbersList.Contains(left))
+				{
+					int otherIndex = numbersList.FindIndex(i + 1, x => x == left);
 
-                if (numbersList.Contains(left))
-                {
-                    int otherIndex = numbersList.FindIndex(i + 1, x => x == left);
+					ans[0] = i + 1;
+					ans[1] = otherIndex + 1;
 
-                    ans[0] = i + 1;
-                    ans[1] = otherIndex + 1;
+					break;
+				}
+			}
 
-                    break;
-                }
-            }
-
-            return ans;
-        }
-    }
+			return ans;
+		}
+	}
 }

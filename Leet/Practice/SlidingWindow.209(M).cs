@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    /*
-     * 
-Code
-
-Testcase
-Testcase
-Result
-
-209. Minimum Size Subarray Sum
+	/*
+	 * 
+	 * 209. Minimum Size Subarray Sum
 Solved
 Medium
 Topics
@@ -45,37 +39,71 @@ Constraints:
 1 <= target <= 109
 1 <= nums.length <= 105
 1 <= nums[i] <= 104
-     */
+	 */
 
 
-    public partial class Solution
-    {
-        public int MinSubArrayLen(int target, int[] nums)
-        {
-            int sum = 0;
-            int minSize = int.MaxValue;
-            List<int> list = new List<int>();
+	public partial class Solution
+	{
 
-            for (int i = 0; i < nums.Length; i++)
-            {
-                // 依序累加上去，每家一個，就往下while檢查
-                if (sum < target)
-                {
-                    sum += nums[i];
-                    list.Add(nums[i]);
-                }
+		public int MinSubArrayLen(int target, int[] nums)
+		{
+			Array.Sort(nums);
 
-                //  從list前面開始扣，目的為看新加入的能扣除多少為最少>=target的情況 (可能扣到最後只剩新加入的一個，代表新加入的 = target，即可找出最短list)
-                while (sum >= target)
-                {
-                    minSize = Math.Min(minSize, list.Count);
-                    sum -= list.First();
+			int sum = 0;
+			int minSize = int.MaxValue;
+			List<int> list = new List<int>();
 
-                    list.RemoveAt(0);
-                }
-            }
+			foreach(int num in nums)
+			{
+				if (sum < target)
+				{
+					sum += num;
+					list.Add(num);
+				}
 
-            return minSize == int.MaxValue ? 0 : minSize;
-        }
-    }
+				while (sum >= target)
+				{
+					minSize = Math.Min(minSize, list.Count);
+
+					sum -= list.First();
+					list.RemoveAt(0);
+
+				}
+			}
+
+			return minSize == int.MaxValue ? 0 : minSize;
+		}
+
+
+
+
+
+
+
+		public int MinSubArrayLen2(int target, int[] nums)
+		{
+			int sum = 0;
+			int minSize = int.MaxValue;
+			List<int> list = new List<int>();
+
+			for (int i = 0; i < nums.Length; i++)
+			{
+				if (sum < target)
+				{
+					sum += nums[i];
+					list.Add(nums[i]);
+				}
+
+				while (sum >= target)
+				{
+					minSize = Math.Min(minSize, list.Count);
+					sum -= list.First();
+
+					list.RemoveAt(0);
+				}
+			}
+
+			return minSize == int.MaxValue ? 0 : minSize;
+		}
+	}
 }

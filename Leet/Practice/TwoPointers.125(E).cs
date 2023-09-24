@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    /*
-     * 125. Valid Palindrome
+	/*
+	 * 125. Valid Palindrome
 Solved
 Easy
 Topics
@@ -40,56 +40,59 @@ Constraints:
 
 1 <= s.length <= 2 * 105
 s consists only of printable ASCII characters.
-     * 
-     */
+	 * 
+	 * 
+	 * 
+	 */
 
+	public partial class Solution
+	{
+		public bool IsPalindrome(string s)
+		{
+			char[] array = s.ToCharArray();
+			List<char> resetArray = new List<char>();
 
-    public partial class Solution
-    {
-        public bool IsPalindrome(string s)
-        {
-            char[] array = s.ToCharArray();
-            List<char> resetArray = new List<char>();
+			int ASCII_0 = Convert.ToInt32('0');
+			int ASCII_9 = Convert.ToInt32('9');
+			int ASCII_a = Convert.ToInt32('a');
+			int ASCII_z = Convert.ToInt32('z');
 
-            for (int i = 0; i < array.Length; i++)
-            {
-                // 全轉小寫，然後用ASCII
-                char low = Char.ToLower(array[i]);
-                int A = Convert.ToInt32(low);
+			for (int i = 0; i < array.Length; i++)
+			{
+				char low = char.ToLower(array[i]);
+				int lowNum = Convert.ToInt32(low);
 
-                // 去除數字 和 字母以外的字
-                if (A >= Convert.ToInt32('0') && A <= Convert.ToInt32('9'))
-                {
-                    resetArray.Add(low);
-                }
-                else if (A >= Convert.ToInt32('a') && A <= Convert.ToInt32('z'))
-                {
-                    resetArray.Add(low);
-                }
-            }
+				if (lowNum >= ASCII_0 && lowNum <= ASCII_9)
+				{
+					resetArray.Add(low);
+				}
+				else if (lowNum >= ASCII_a && lowNum <= ASCII_z)
+				{
+					resetArray.Add(low);
+				}
+			}
 
-            // 開始頭尾往內比對
-            bool check = true;
-            for (int j = 0; j < resetArray.Count; j++)
-            {
-                int endIndex = resetArray.Count - 1 - j;
+			bool check = true;
+			for (int j = 0; j < resetArray.Count; j++)
+			{
+				int endIndex = resetArray.Count - 1 - j;
 
-                if (j > endIndex)
-                {
-                    break;
-                }
+				if (j > endIndex)
+				{
+					break;
+				}
 
-                char start = resetArray[j];
-                char end = resetArray[endIndex];
+				char start = resetArray[j];
+				char end = resetArray[endIndex];
 
-                if (start != end)
-                {
-                    check = false;
-                    break;
-                }
-            }
+				if (start != end)
+				{
+					check = false;
+					break;
+				}
+			}
 
-            return check;
-        }
-    }
+			return check;
+		}
+	}
 }

@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    /*
-     * 3. Longest Substring Without Repeating Characters
+	/*
+	 * 3. Longest Substring Without Repeating Characters
 Solved
 Medium
 Topics
 Companies
-Given a string s, find the length of the longest substring without repeating characters.
+Given a string s, find the length of the longest 
+substring
+ without repeating characters.
 
  
+
 Example 1:
 
 Input: s = "abcabcbb"
@@ -37,62 +40,38 @@ Constraints:
 
 0 <= s.length <= 5 * 104
 s consists of English letters, digits, symbols and spaces.
-     * 
-     * 
-     */
-    public partial class Solution
-    {
-        // 解法1 (較優)
-        public int LengthOfLongestSubstring(string s)
-        {
-            char[] charList = s.ToCharArray();
-            int maxLength = 0;
+	 *
+	 */
 
-            List<char> temp = new List<char>();
-            for (int i = 0; i < s.Length; i++)
-            {
-                if (temp.Contains(charList[i]))   // 只要發現tamp內有重複，把tamp內 "重複+之前" 的都刪掉
-                {
-                    int index = temp.IndexOf(charList[i]);
-                    temp.RemoveRange(0, index + 1);
-                }
 
-                // 補上這次新的，再種比一次 最大長度
-                temp.Add(charList[i]);
-                maxLength = Math.Max(maxLength, temp.Count);
-            }
+	public partial class Solution
+	{
+		public int LengthOfLongestSubstring(string s)
+		{
+			char[] charList = s.ToCharArray();
+			int maxLength = 0;
 
-            return maxLength;
-        }
+			List<char> temp = new List<char>();
+			for (int i = 0; i < s.Length; i++)
+			{
+				temp.Clear();
 
-        // 解法2
-        public int LengthOfLongestSubstring2(string s)
-        {
-            char[] charList = s.ToCharArray();
-            int maxLength = 0;
+				for (int j = i; j < s.Length; j++)
+				{
+					if (!temp.Contains(charList[j]))
+					{
+						temp.Add(charList[j]);
+						maxLength = Math.Max(maxLength, temp.Count);
+					}
+					else
+					{
 
-            List<char> temp = new List<char>();
-            for (int i = 0; i < s.Length; i++)
-            {
-                //  就是一個一個檢查
-                temp.Clear();
+						break;
+					}
+				}
+			}
 
-                for (int j = i; j < s.Length; j++)
-                {
-                    if (!temp.Contains(charList[j]))
-                    {
-                        temp.Add(charList[j]);
-                        maxLength = Math.Max(maxLength, temp.Count);
-                    }
-                    else
-                    {
-
-                        break;
-                    }
-                }
-            }
-
-            return maxLength;
-        }
-    }
+			return maxLength;
+		}
+	}
 }
