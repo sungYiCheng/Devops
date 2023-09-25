@@ -9,14 +9,13 @@ namespace Practice
 		{
 			Solution solution = new Solution();
 
-			List<List<int>> list = new List<List<int>>();
-			list.Add(new List<int> { 4 });
-			list.Add(new List<int> { -1, 1, -7, -8 });
-			list.Add(new List<int> { -10, -8, -5, -2 });
-			list.Add(new List<int> { 0, 9, 7, -1 });
-			list.Add(new List<int> { 4, 4, -2, 1 });
+			int[][] array = new int[2][];
+			array[0] = new int[2] { 3, 3};
+            array[1] = new int[2] { 3, 3};
+            //array[2] = new int[3] { 2, 7, 7 };
 
-			var ans = solution.Compress(new char[] { 'a', 'a', 'b', 'b', 'c', 'c' });
+
+            var ans = solution.DecodeString("3[a]2[bc]");
 
 			Console.WriteLine($"ans:{ans}");
 		}
