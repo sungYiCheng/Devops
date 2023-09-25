@@ -21,7 +21,6 @@ D:\Practice\SideProject\Leet\Practice\bin\Debug\net5.0\Practice.runtimeconfig.de
 D:\Practice\SideProject\Leet\Practice\bin\Debug\net5.0\Practice.dll
 D:\Practice\SideProject\Leet\Practice\bin\Debug\net5.0\ref\Practice.dll
 D:\Practice\SideProject\Leet\Practice\bin\Debug\net5.0\Practice.pdb
-D:\Practice\SideProject\Leet\Practice\obj\Debug\net5.0\Practice.csproj.AssemblyReference.cache
 D:\Practice\SideProject\Leet\Practice\obj\Debug\net5.0\Practice.GeneratedMSBuildEditorConfig.editorconfig
 D:\Practice\SideProject\Leet\Practice\obj\Debug\net5.0\Practice.AssemblyInfoInputs.cache
 D:\Practice\SideProject\Leet\Practice\obj\Debug\net5.0\Practice.AssemblyInfo.cs

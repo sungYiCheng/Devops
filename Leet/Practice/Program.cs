@@ -15,7 +15,7 @@ namespace Practice
             //array[2] = new int[3] { 2, 7, 7 };
 
 
-            var ans = solution.DecodeString("3[a]2[bc]");
+            var ans = solution.MaxVowels("weallloveyou", 7);
 
 			Console.WriteLine($"ans:{ans}");
 		}
