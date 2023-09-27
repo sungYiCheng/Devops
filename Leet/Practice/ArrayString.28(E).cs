@@ -48,6 +48,7 @@ haystack and needle consist of only lowercase English characters.
 			}
             else
 			{
+                // 切割後，第一個字串長度 =  needle 的開頭index
                 return array[0].Length;
             }
         }

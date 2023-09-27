@@ -8,16 +8,18 @@ namespace Practice
 {
 	public class Important
 	{
-		List<string> Qu = new List<string>();
-
-		public Important()
+		List<string> Qu = new List<string>()
 		{
-			Qu.Add("11. Container With Most Water");
-			Qu.Add("134. zzzz");
-            Qu.Add("443. String Compression");
-			Qu.Add("334. Increasing Triplet Subsequence");
-        }
+			"11. Container With Most Water",
+			"134. Gas Station",
+			"443. String Compression",
+			"334. Increasing Triplet Subsequence",
+			"12. Integer to Roman",
+			"45. Jump Game II",
+			"6. Zigzag Conversion",
+			"605. Can Place Flowers",
 
+		};
 	}
 
 
