@@ -67,7 +67,6 @@ Constraints:
 
 					sum -= list.First();
 					list.RemoveAt(0);
-
 				}
 			}
 

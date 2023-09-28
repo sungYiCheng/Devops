@@ -53,7 +53,7 @@ s consists of lowercase English letters.
             char[] chars = s.ToCharArray();
             int count = 0;
 
-            // K個字母為一個框框，先算出前框框中有多少個母音
+            // K個字母為一個框框，先算出第一組框框中有多少個母音
             for (int j = 0; j < k; j++)
             {
                 if (isVowel(chars[j]))
