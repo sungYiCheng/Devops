@@ -58,9 +58,11 @@ n == grid.length == grid[i].length
 
             for (int i = 0; i < grid.Length; i++)
             {
+                // 橫的 串成字串
                 string str = string.Join(",", grid[i]);
                 rowList.Add(str);
 
+                // 直的 串成字串
                 List<int> colum = new List<int>();
                 for (int j = 0; j < grid[i].Length; j++) 
                 {
