@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +13,7 @@ namespace Practice
 			string str = string.Empty;
 			char ch = 'A';
 			int num = 123;
-			Stack stack = new Stack();
+			Stack<int> stack = new Stack<int>();
 			List<int[]> listlist = null;
 			List<int> list = null;
             int[] array = null;
