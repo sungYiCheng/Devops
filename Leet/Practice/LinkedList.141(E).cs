@@ -51,7 +51,37 @@ Explanation: There is no cycle in the linked list.
 	 */
 	public partial class Solution
 	{
-		public bool HasCycle(ListNode head)
+        public bool HasCycle2(ListNode head)
+		{
+			List<ListNode> list = new List<ListNode>();
+
+			bool flag = true;
+			while (head != null) 
+			{ 
+				if (!list.Contains(head))
+				{
+					list.Add(head);
+				}
+				else
+				{
+					flag = false;
+					break;
+				}
+
+				head = head.next;
+			}
+
+			return flag;
+		}
+
+
+
+
+
+
+
+
+        public bool HasCycle(ListNode head)
 		{
 			bool flag = false;
 

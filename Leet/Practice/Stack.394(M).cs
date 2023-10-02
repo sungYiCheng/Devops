@@ -77,7 +77,7 @@ All the integers in s are in the range [1, 300].
                 }
                 else
                 {
-                    stack.Push(ch.ToString());
+                    stack.Push(ch.ToString());   // 全部都轉 string 好處理
                 }
             }
 

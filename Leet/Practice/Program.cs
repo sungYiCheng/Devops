@@ -15,9 +15,10 @@ namespace Practice
             //array[2] = new int[3] { 2, 7, 7 };
 
 
-            var ans = solution.MaxVowels("weallloveyou", 7);
+            //var ans = solution.getTime("AZGB");
+            var ans = solution.getTime("BGZXC");
 
-			Console.WriteLine($"ans:{ans}");
+            Console.WriteLine($"ans:{ans}");
 		}
 
 	}
