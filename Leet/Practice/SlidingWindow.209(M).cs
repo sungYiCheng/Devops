@@ -47,8 +47,6 @@ Constraints:
 
 		public int MinSubArrayLen(int target, int[] nums)
 		{
-			Array.Sort(nums);
-
 			int sum = 0;
 			int minSize = int.MaxValue;
 			List<int> list = new List<int>();
