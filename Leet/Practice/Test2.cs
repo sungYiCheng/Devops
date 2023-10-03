@@ -39,19 +39,17 @@ namespace Practice
 					else
 					{
 						// check left
-						if (prev != subStr[i])
-						{
-							left = true;
-						}
+						left = prev != subStr[i] ? true : false;
 
-						// check up
-						if (prevDic.TryGetValue(subStr[i], out List<int> list))
+                        // check up
+                        if (prevDic.TryGetValue(subStr[i], out List<int> list))
 						{
-							if (!list.Contains(i))
-							{
-								up = false;
-							}
+							up = list.Contains(i) ? false : true;
 						}
+						else
+						{
+							up = true;
+                        }
 
 						if (!nowDic.ContainsKey(subStr[i]))
 						{
@@ -60,14 +58,15 @@ namespace Practice
 
 						nowDic[subStr[i]].Add(i);
 
-						if (left && up)
+						// 第0格 只要比UP
+						if ((i == 0 && up) || (left && up))
 						{
 							count++;
 						}
 					}
 
 					prev = subStr[i];
-				}
+                }
 
 				prev = string.Empty;
 				prevDic = nowDic.ToDictionary(data => data.Key, data => data.Value);
