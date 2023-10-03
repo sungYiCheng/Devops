@@ -15,7 +15,7 @@ namespace Practice
             char[] array = s.ToCharArray();
     
             int ANum = Convert.ToInt32('A');
-            int prev = Convert.ToInt32('A');
+            int prev = ANum;
             int prevIndex = 26;
             int sum = 0;
             for (int i = 0; i < array.Length; i++)
