@@ -1,0 +1,11 @@
+﻿<div class="text-center">
+    <h1 class="display-4">未登入</h1>
+
+    <br><br>
+
+    @using (Html.BeginForm(actionName: "Index", controllerName: "Login", FormMethod.Get))
+    {
+        <p>點此處回登入頁面</p>
+        <input type="submit" name="id" value="Login" class="btn btn-primary">
+    }
+</div>

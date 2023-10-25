@@ -1,0 +1,805 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\_alert.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\_badge.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\_card.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\_close.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\_containers.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\_forms.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\_grid.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\_images.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\scss\\_maps.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\_modal.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\_nav.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\_popover.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\_progress.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\_root.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\_tables.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\_type.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\SideProject\\ASP.Net\\practice\\practice\\wwwroot\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.practice.props",
+      "PackagePath": "build\\practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.practice.props",
+      "PackagePath": "buildMultiTargeting\\practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.practice.props",
+      "PackagePath": "buildTransitive\\practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.practice.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

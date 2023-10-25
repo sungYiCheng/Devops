@@ -1,0 +1,30 @@
+﻿@model LoginRequest
+
+<form asp-action="Index" method="post">
+    <div class="mb-3">
+        <label class="form-label">Account</label>
+        <input asp-for=@Model.Account type="text" class="form-control">
+
+        <label class="form-label">Password</label>
+        <input asp-for=@Model.Pwd  type="password" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+
+    @{
+        if (Model !=null && !string.IsNullOrEmpty(Model.Msg))
+        {
+            <p>@Model.Msg</p>;
+        }
+    }
+</form>
+
+<br>
+<br>
+<br>
+
+@using (Html.BeginForm(actionName: "Index", controllerName: "Register", FormMethod.Get))
+{
+    <p>Enter Here to Register</p>
+    <input type="submit" name="id" value="Register" class="btn btn-primary">
+}

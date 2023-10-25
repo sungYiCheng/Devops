@@ -1,0 +1,85 @@
+﻿@model ArticleViewAdd;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mb-2">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<hr />
+@if (Model != null && Model.ArticleList.Count() > 0)
+{
+    <div id="articleIndex" class="text-center mt-5">
+        <style>
+            table {
+                border: 1px solid #000;
+            }
+
+            td {
+                border: 1px solid #000;
+                padding: 10px;
+            }
+        </style>
+
+        <p>Your Account: @Model.Account</p>
+
+        <table>
+            <h3 class="display-3">
+
+            <tr>
+                <td>Id</td>
+                <td>Account</td>
+                <td>Content</td>
+                <td>Time</td>
+                <td>Delete</td>
+                <td>UpdateContent</td>
+            </tr>
+            </h3>
+
+            @foreach (var item in Model.ArticleList)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Account</td>
+                    <td>@item.Content</td>
+                    <td>@item.Time</td>
+                    <td>
+                        @using (Html.BeginForm(actionName: "Delete", controllerName: "Article", routeValues: new { account = @Model.Account }))
+                        {
+                            if (@Model.Account == item.Account)
+                            {
+                                <input type="submit" name="id" value=@item.Id>
+                            }
+                        }
+                    </td>
+                    <td>
+                        @using (Html.BeginForm(actionName: "Update", controllerName: "Article", routeValues: new { account = @Model.Account }, FormMethod.Get))
+                        {
+                            if (@Model.Account == item.Account)
+                            {
+                                <input type="submit" name="id" value=@item.Id>
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+}
+
+<br>
+<br>
+<br>
+<br>
+
+@using (Html.BeginForm(routeValues: new { account = @Model.Account }))
+{
+    <div class="mb-3">
+        <label class="form-label">Add Content</label>
+        <input type="text" class="form-control" name="content">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}

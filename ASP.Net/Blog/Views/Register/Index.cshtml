@@ -1,0 +1,25 @@
+﻿@model RegisterRequest
+
+<form asp-action="Index" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Account</label>
+        <input asp-for=@Model.Account type="Text" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input asp-for=@Model.Pwd type="password" class="form-control">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    @{
+        if (Model != null && !string.IsNullOrEmpty(Model.Msg))
+        {
+            <p>@Model.Msg</p>
+            ;
+        }
+    }
+</form>
